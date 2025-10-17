@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  java17:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    volumes:
+      - ./workspace:/workspace
+      - ./extensions:/root/.vscode-server/extensions
+    tty: true
+    stdin_open: true
+    command: tail -f /dev/null

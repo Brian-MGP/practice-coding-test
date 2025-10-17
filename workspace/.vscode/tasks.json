@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "javac build to folder",
+      "type": "shell",
+      "command": "javac",
+      "args": [
+        "-d",
+        "${fileDirname}/bin", // 현재 파일이 있는 디렉토리마다 bin 폴더 생성
+        "${file}"              // 현재 파일 컴파일
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$javac",
+      "detail": "Compile current Java file to its own folder"
+    }
+  ]
+}
