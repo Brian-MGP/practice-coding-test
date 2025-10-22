@@ -1,12 +1,13 @@
 # 코딩테스트 연습
-도커, vscode에서 코딩 테스트 연습하기 위한 환경 구축 및 연습 내용 기록
+도커, vscode에서 코딩 테스트를 연습하기 위한 환경 구축 및 연습 내용 기록
 
 ## 환경
 - 실행 환경
   - Docker version 27.5.1
   - Docker Compose version v2.32.4
+  - Visual Studio Code
 - 컨테이너 내 환경
-  - openjdk17
+  - OpenJDK 17
 
 ## 환경설정 내용
 - vscode에서 자바 관련 확장프로그램이 미리 설치되도록 환경설정 (extensions 복사)
@@ -20,8 +21,8 @@ docker compose up -d
 ## 자바 실행
 1. vscode로 컨테이너에 원격 접속
 2. 실행할 자바 파일 열기
-3. RUN AND DEBUG 선택 (CMD + SHIFT + D)
-4. Run current file으로 실행 (F5)
+3. RUN AND DEBUG 선택 (맥용 단축키: CMD + SHIFT + D)
+4. Run current file으로 실행 (단축키: F5)
 
 ## 파일명 설명
 - Me로 시작하는 자바 파일은 본인의 풀이
