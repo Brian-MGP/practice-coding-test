@@ -1,9 +1,9 @@
 public class Me {
     public static void main(String[] args) {
-        Me me = new Me();
+        Me c = new Me();
 
         String[] input = {"a", "b", "c"};
-        String output = me.solution(input);
+        String output = c.solution(input);
 
         System.out.println(output);
     }

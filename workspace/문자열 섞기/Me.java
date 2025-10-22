@@ -1,8 +1,8 @@
 public class Me {
     public static void main(String[] args) {
-        Me me = new Me();
+        Me c = new Me();
 
-        String result = me.solution("aaaa",  "bbbb");
+        String result = c.solution("aaaa",  "bbbb");
         System.out.println(result);
     }
 

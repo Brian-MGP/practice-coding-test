@@ -1,10 +1,10 @@
 public class Others2 {
     public static void main(String[] args) {
-        Others2 solution = new Others2();
+        Others2 c = new Others2();
 
-        int output = solution.solution(9, 91);
+        int output = c.solution(9, 91);
         System.out.println(output);
-        output = solution.solution(89, 8);
+        output = c.solution(89, 8);
         System.out.println(output);
     }
     public int solution(int a, int b) {

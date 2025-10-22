@@ -3,10 +3,10 @@ import java.util.stream.Collectors;
 
 public class Others3 {
     public static void main(String[] args) {
-        Others3 others3 = new Others3();
+        Others3 c = new Others3();
 
         String[] input = {"a", "b", "c"};
-        String output = others3.solution(input);
+        String output = c.solution(input);
 
         System.out.println(output);
     }

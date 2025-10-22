@@ -1,7 +1,7 @@
 public class Me {
     public static void main(String[] args) {
-        Me me = new Me();
-        String answer = me.solution("He11oWor1d", "lloWorl", 2);
+        Me c = new Me();
+        String answer = c.solution("He11oWor1d", "lloWorl", 2);
 
         System.out.println(answer);
     }

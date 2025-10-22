@@ -1,9 +1,9 @@
 public class Others2 {
     public static void main(String[] args) {
-        Others2 others2 = new Others2();
+        Others2 c = new Others2();
 
         String[] input = {"a", "b", "c"};
-        String output = others2.solution(input);
+        String output = c.solution(input);
 
         System.out.println(output);
     }

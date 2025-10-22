@@ -2,11 +2,11 @@ import java.util.Collections;
 
 public class Others3 {
     public static void main(String[] args) {
-        Others3 others = new Others3();
+        Others3 c = new Others3();
 
-        String output = others.solution("string", 3);
+        String output = c.solution("string", 3);
         System.out.println(output);
-        output = others.solution("love", 10);
+        output = c.solution("love", 10);
         System.out.println(output);
     }
 

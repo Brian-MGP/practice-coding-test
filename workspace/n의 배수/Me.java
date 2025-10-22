@@ -1,10 +1,10 @@
 public class Me {
     public static void main(String[] args) {
-        Me solution = new Me();
+        Me c = new Me();
 
-        int output = solution.solution(98, 2);
+        int output = c.solution(98, 2);
         System.out.println(output);
-        output = solution.solution(34, 3);
+        output = c.solution(34, 3);
         System.out.println(output);
     }
     public int solution(int num, int n) {

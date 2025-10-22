@@ -1,10 +1,10 @@
 public class Me {
     public static void main(String[] args) {
-        Me me = new Me();
+        Me c = new Me();
 
-        String output = me.solution("string", 3);
+        String output = c.solution("string", 3);
         System.out.println(output);
-        output = me.solution("love", 10);
+        output = c.solution("love", 10);
         System.out.println(output);
     }
     public String solution(String my_string, int k) {

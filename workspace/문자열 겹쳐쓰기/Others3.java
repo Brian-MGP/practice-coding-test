@@ -1,9 +1,9 @@
 public class Others3 {
     public static void main(String[] args) {
-        Others3 others = new Others3();
-        String answer = others.solution("He11oWor1d", "lloWorl", 2);
+        Others3 c = new Others3();
+        String output = c.solution("He11oWor1d", "lloWorl", 2);
 
-        System.out.println(answer);
+        System.out.println(output);
     }
 
     public String solution(String my_string, String overwrite_string, int s) {
