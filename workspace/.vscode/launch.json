@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Me",
+      "request": "launch",
+      "mainClass": "Me",
+      "projectName": "workspace_1b93b146"
+    },
+    {
+      "type": "java",
       "name": "Run current file",
       "request": "launch",
       "mainClass": "${fileBasenameNoExtension}",

@@ -1,3 +1,4 @@
 {
-    "java.inlayHints.parameterNames.enabled": "none"
+    "java.inlayHints.parameterNames.enabled": "none",
+    "java.project.outputPath": "bin"
 }

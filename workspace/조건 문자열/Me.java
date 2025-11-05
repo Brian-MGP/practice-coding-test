@@ -1,3 +1,5 @@
+import 삼각달팽이.Me;
+
 public class Me {
     public static void main(String[] args) {
         Me c = new Me();
