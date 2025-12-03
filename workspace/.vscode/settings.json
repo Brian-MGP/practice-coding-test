@@ -1,4 +1,5 @@
 {
     "java.inlayHints.parameterNames.enabled": "none",
-    "java.project.outputPath": "bin"
+    "java.project.outputPath": "bin",
+    "terminal.integrated.scrollback": 10000
 }
